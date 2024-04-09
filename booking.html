@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Booking</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--nav bar section-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wildlife.html">Sri Lankan Wildlife Introduction</a></li>
+        <li><a href="department.html">Department of Wildlife conservation</a></li>
+        <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+        <li>
+            <a href="animals.html">Animals in Sri Lanka</a>
+            <ul class="dropdown">
+                <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                <li><a href="yala.html">Yala National Park</a></li>
+            </ul>
+        </li>
+        <li><a href="booking.html">Book Now</a></li>
+        <button id="log"><a href="login.html"> <i class='bx bxs-user'></i> </a></button>
+
+      </ul>
+    <main>
+        <section id="booking">
+            <h2 class="booking_head">Wildlife Tour Booking</h2>
+            <p class="booking_sub_head">Experience the thrill of Sri Lanka's rich biodiversity. Book your wildlife tour now!</p>
+
+            <form action="index.html" >
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tour_type">Select Tour Type:</label>
+                <select id="tour_type" name="tour_type" required>
+                    <option value="Full">FULL DAY TOUR</option>
+                    <option value="half">HALF DAY TOUR</option>
+                    <option value="7 hours">7 HOURS TOUR</option>
+                </select>
+
+                <label for="tour_date">Select Tour Date:</label>
+                <input type="date" id="tour_date" name="tour_date" required>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

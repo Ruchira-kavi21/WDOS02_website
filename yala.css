@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.06rem;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+} 
+
+/* Style the navigation bar */
+ul {
+    list-style: none;
+    background: #0d4122;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fffcfc;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: #015524;
+    color: #000000;
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: #829e33;
+    color: #000000;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+#log {
+    float: right;
+    display: block;
+    padding: 20px 25px;
+    color: #fffcfc;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #a7a7a78e;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#log:hover {
+    background-color: #829e33;
+    color: #000000;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* main img section */
+.main_blog {
+    font-family: 'Open Sans', sans-serif;
+}
+.main_img_heading {
+    font-size: 5rem;
+    color: #ffffff;
+    margin-top: -200px;
+    margin-bottom: 250px;
+    text-align: center;
+}
+.main_img {
+    width: 100%; 
+}
+#mainImg {
+    display: block;
+    width: 100%;
+    height: 920px;
+} 
+/* intro section */
+.main_intro {
+    background-color: rgb(9, 90, 15);
+    margin-top: -160px;
+}
+.intro_section {
+    max-width: 1580px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro_head {
+    font-size: 2.5rem;
+    float: left;
+    margin-top: 50px;
+    padding: 0 30px;
+    min-height: 850px;
+    margin-right: 100px;
+    margin-top: 250px;
+    color: #d5d5d5;
+
+}
+.line1 {
+    border: 2px solid rgb(0, 0, 0);
+}
+.Introduction {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+    text-align: justify;
+    color: #d5d5d5;
+}
+/* style for the mid sec */
+.mid_sec {
+    background-color: #ffffff;
+    color: #000000;
+    min-height: 750px;
+}
+.mid_para {
+    max-width: 1580px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+.mid_head {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.line2 {
+    border: 2px solid rgba(0, 0, 0, 0.514);
+    max-width: 800px;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.safari_img img{
+    float: right;
+    max-height: 700px;
+    max-width: 500px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.para {
+    max-width: 1180px;
+    margin-right: auto;
+    margin-top: 80px;
+    line-height: 2em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: justify;
+}
+/*slide images*/
+.slider {
+    width: 100%;
+    height:800px;
+    display: grid;
+    place-items: center;
+}
+.slider-container {
+    width: 100%;
+    height: 800px;
+    background-image: url("images/wilpattu_slide_imgs/wilpattu1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+}
+
+/* Define keyframes for the sliding animation */
+@keyframes changeImage {
+    0% {
+        background-image: url("images/wilpattu_slide_imgs/wilpattu1.jpg");
+        
+    }
+    25% {
+        background-image: url("images/wilpattu_slide_imgs/wilpattu2.jpg");
+    }
+    50% {
+        background-image: url("images/wilpattu_slide_imgs/wilpattu3.jpg");
+    }
+    75% {
+        background-image: url("images/wilpattu_slide_imgs/wilpattu4.jpg");
+    }
+    100% {
+        background-image: url("images/wilpattu_slide_imgs/wilpattu5.jpg");
+    }
+}
+
+/* end section */
+.main_end {
+    width: 100%;
+    background-color: #015524;
+}
+.end_sec {
+    max-width: 1180px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end_head {
+    float: left;
+    min-height: 650px;
+    font-size: 2.5rem;
+    padding: 100px;
+}
+.list {
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+    padding: 50px;
+}
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 845px) {
+    .line2{
+        display: none;
+    }
+    .slider-container {
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+     ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; 
+    }
+     
+     ul li {
+        flex: 1;
+     }
+
+    .main_img_heading{
+        font-size: 3.5rem;
+    }
+    #mainImg {
+        height: 500px;
+    } 
+
+}
+@media only screen and (max-width: 630px) {
+    .intro_head{
+        font-size: 1.8rem;
+    }
+    .safari_img img{
+        max-height: 400px;
+    }
+    .end_head{
+        margin-top: 200px;
+    }
+    .slider-container {
+        height: 500px;
+    }
+}
+
+
+
+@media only screen and (max-width: 435px) {
+    ul li a{
+        font-size: 12px;
+    }
+    ul li a:hover{
+        font-size: 12px;
+    }
+.intro_head{
+display: none;
+}
+.main_img_heading{
+    font-size: 3rem;
+}
+.safari_img img{
+    max-height: 300px;
+    margin-left: 10px;
+}
+.slider-container {
+    height: 400px;
+
+}
+
+}
+
+@media only screen and (max-width: 345px) {
+    
+.main_img_heading{
+    font-size: 2rem;
+}
+
+.mid_head{
+    margin-left: 0;
+}
+.end_head h3{
+    font-size: 2rem;
+    padding: 0;
+    text-align: center;
+    float: none;
+}
+.list{
+    font-size: 1rem;
+}
+#mainImg {
+    visibility: hidden;
+    height: 350px;
+} 
+.main_img_heading{
+    color: #7a7272;
+    margin-top: -50px;
+}
+.slider-container {
+    height: 250px;
+    
+}
+
+}

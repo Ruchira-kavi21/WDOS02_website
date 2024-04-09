@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife in Sri Lanka</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--nav bar section-->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wildlife.html">Sri Lankan Wildlife Introduction</a></li>
+            <li><a href="department.html">Department of Wildlife conservation</a></li>
+            <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+            <li>
+                <a href="animals.html">Animals in Sri Lanka</a>
+                <ul class="dropdown">
+                    <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    <li><a href="yala.html">Yala National Park</a></li>
+                </ul>
+            </li>
+            <li><a href="booking.html">Book Now</a></li>
+            <button id="log"><a href="login.html"> <i class='bx bxs-user'></i> </a></button>
+        </ul>
+    </nav>
+
+    <!--main animation img-->
+    <div class="slider">
+        <div class="slider-container"></div>
+    </div> 
+    
+    <!--Ayubowan img-->
+    <div class="row">
+        <div class="Ayubowan-svg">
+            <img src="images/Ayubowan.svg" alt="Ayubowan">
+        </div>
+        <div class="heading-img" id="welcome">
+            <h1 class="head" id="headingg"></h1>
+            <p class="welcome_sub_heading" id="subHeading"><br></p>
+        </div>
+    </div>
+    <div class="sub_container">
+        <div class="sub_sec sub_sec1" id="ecosystems">
+            <h2 class="sub_head" id="heading1"></h2>
+            <h3 class="sec_head" id="heading2"></h3>
+            <p class="sec_detail"id="description"></p>
+            <h2 class="sec_head" id="heading3"></h2>
+            <p class="sec_detail"id="conservation"></p>
+            <div class="sec_img img1"></div>
+        </div>
+        <div class="sub_sec sub_sec2" id="birds">
+            <h2 class="sub_head" id="heading4"> </h2>
+            <h3 class="sec_head" id="heading5"></h3>
+            <p class="sec_detail"id="description1"></p>
+            <h3 class="sec_head" id="heading6"></h3>
+            <p class="sec_detail"id="description2"></p>
+            <div class="sec_img img2"></div>
+        </div>
+        <div class="sub_sec sub_sec3" id="marine">
+            <h2 class="sub_head" id="heading7"></h2>
+            <h3 class="sec_head" id="heading8"></h3>
+            <p class="sec_detail"id="description3"></p>
+            <h3 class="sec_head" id="heading9"></h3>
+            <p class="sec_detail" id="description4"></p>
+            <div class="sec_img img3"></div>
+        </div>
+    </div>
+
+  <section class="parks" id="parks">
+    <div class="park">
+        <img src="images/yala_park_theme.jpg" alt="kotiya">
+        <h4 id="title1"></h4>
+        <button onclick="location.href='yala.html' ">More Info</button>
+    </div>
+    <div class="park">
+        <img src="images/udawalawe_park_theme.jpg" alt="aliya">
+        <h4 id="title2"></h4>
+        <button onclick="location.href='index.html' ">More Info</button>
+    </div>
+    <div class="park">
+        <img src="images/8.jpg" alt="aliya">
+        <h4 id="title3"></h4>
+        <button onclick="location.href='wilpattu.html' ">More Info</button>
+    </div>
+    <div class="park">
+        <img src="images/minneriya_theme.jpg" alt="aliya">
+        <h4 id="title4"></h4>
+        <button onclick="location.href='index.html' ">More Info</button>
+    </div> 
+    <div class="park">
+        <img src="images/Gal_oya.jpg" alt="kotiya">
+        <h4 id="title5"></h4>
+        <button onclick="location.href='yala.html' ">More Info</button>
+    </div>
+    <div class="park">
+        <img src="images/kumana-national-park.jpg" alt="kotiya">
+        <h4 id="title6"></h4>
+        <button onclick="location.href='yala.html' ">More Info</button>
+    </div>
+        
+  </section>
+  <section class="wildlife_container" id="wildlife_tours">
+    <div class="card">
+        <div class="card-img jeep1"></div>
+        <h3 id="title7"></h3>
+        <h5 id="time1"></h5>
+        <p id="description5"></p>
+        <a href="https://www.yalawild.com/safari-packages/lunugamwehara-safari/">Read More</a>
+    </div>
+    <div class="card">
+        <div class="card-img jeep2"></div>
+        <h3 id="title8"></h3>
+        <h5 id="time2"></h5>
+        <p id="description6"></p>
+        <a href="https://www.yalawild.com/safari-packages/lunugamwehara-safari/">Read More</a>
+    </div>
+    <div class="card">
+        <div class="card-img jeep3"></div>
+        <h3 id="title9"></h3>
+        <h5 id="time3"></h5>
+        <p id="description7"></p>
+        <a href="https://www.yalawild.com/safari-packages/lunugamwehara-safari/">Read More</a>
+    </div>
+</section>
+
+
+<footer>
+    <form action="#" method="POST" id="subscribeForm">
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <button type="submit" id="subB">Subscribe</button>
+   <p>&copy; 2023 Ruchira Kaveesha. All rights reserved.</p>
+   <p>Contact: info@wildlifesrilanka </p>
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,68 @@
+{
+  "welcome": {
+    "heading": "Welcome To Sri Lanka",
+    "subHeading": "See what's waiting for you on your next island getaway <br> savour the uniq experiences this island treasure has to offer."
+  },
+  "ecosystems": {
+    "heading1": "Diverse Ecosystems of Sri Lanka",
+    "heading2": "Discover the Rich Biodiversity",
+    "description": "Sri Lanka boasts an incredibly diverse range of ecosystems, from lush rainforests to arid plains, providing habitats for a staggering variety of wildlife. The island is renowned for its biodiversity, hosting numerous species that are endemic to the region. The Sinharaja Rainforest, a UNESCO World Heritage Site, stands as a testament to the country's commitment to conservation, showcasing an abundance of flora and fauna. Explore the vibrant ecosystems that make Sri Lanka a haven for nature enthusiasts.",
+    "heading3":"Conservation Efforts",
+    "conservation": "In an effort to preserve its unique ecosystems, Sri Lanka has implemented robust conservation initiatives. National parks and wildlife sanctuaries, such as Yala and Wilpattu, play a crucial role in protecting endangered species like the Sri Lankan leopard and Asian elephant. Discover the ongoing conservation efforts that aim to strike a balance between human activities and the preservation of the island's extraordinary natural heritage."
+  },
+  "birds": {
+    "heading4": "Avian Wonders of Sri Lanka",
+    "heading5": "Wings of Paradise",
+    "description1": "Sri Lanka is a birdwatcher's paradise, with over 400 bird species, including numerous endemics. From the vibrantly colored Sri Lanka Junglefowl to the elusive Serendib Scops Owl, the island offers a captivating array of avian wonders. Learn about the diverse habitats that attract both migratory and resident birds, making Sri Lanka a must-visit destination for bird enthusiasts.",
+    "heading6": "Bird Conservation Initiatives",
+    "description2": "In an effort to preserve its unique ecosystems, Sri Lanka has implemented robust conservation initiatives. National parks and wildlife sanctuaries, such as Yala and Wilpattu, play a crucial role in protecting endangered species like the Sri Lankan leopard and Asian elephant. Discover the ongoing conservation efforts that aim to strike a balance between human activities and the preservation of the island's extraordinary natural heritage."
+  },
+  "marine": {
+    "heading7": "Marine Marvels Surrounding Sri Lanka",
+    "heading8": "Beneath the Waves",
+    "description3": "The waters surrounding Sri Lanka teem with marine life, offering a spectacular underwater world waiting to be explored. From colorful coral reefs to majestic marine mammals, the island's oceans are a haven for divers and marine enthusiasts. Dive into the depths to witness the mesmerizing marine marvels that call the waters of Sri Lanka home.",
+    "heading9": "Marine Conservation Efforts",
+    "description4": " Sri Lanka recognizes the importance of preserving its marine ecosystems. Conservation initiatives focus on protecting coral reefs, marine turtles, and other vulnerable species. Discover the commitment to sustainable practices and marine conservation efforts that contribute to the health and longevity of the island's coastal environments."
+  },
+  "parks": [
+    {
+      "title": "Yala National <br> Park"
+    },
+    {
+      "title": "Udawalawe National Park"
+    },
+    {
+      "title": "Wilpattu National Park"
+    },
+    {
+      "title": "Minneriya National Park"
+    },
+    {
+      "title": "Gal Oya National Park"
+    },
+    {
+      "title": "Kumana National Park "
+    }
+  ],
+
+  "wildlife_tours": [
+    {
+      "title": "FULL DAY TOUR",
+      "time": "5.30 am to 6.00 pm",
+      "description5": "In a Full day safari, the jeeps venture far inside the Jungle to give the best opportunity to see the best of Sri Lankan wildlife. These roads are basic tracks and going is rough giving you the best game drive experience."
+      
+    },
+    {
+      "title": "HALF DAY TOUR",
+      "time": "5.30 am to 9.30 am | 2.30 pm to 6.30 pm",
+      "description5": "The half day tour is dedicated towards exploring the most accessible areas of the National Park. The morning and evening safaris both offer the opportunity to see a wide variety of species."
+      
+    },
+    {
+      "title": "7 HOURS TOUR",
+      "time": "5.30 am to 12.30 pm | 11.30 pm to 6.30 pm",
+      "description5": "The focus of this tour is to witness a great choice of birds, elephants, and much more. In addition, we also hope to be able to see jackals, crocodile, monkey, spotted deer, and buffalo."
+      
+    }
+  ]
+}
