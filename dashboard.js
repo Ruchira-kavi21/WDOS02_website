@@ -1,14 +1,8 @@
-
-
-
-
-let content;
 document.addEventListener("DOMContentLoaded", function () {
   const editButtons = document.querySelectorAll(".editButtons");
 
   editButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      
       if (this.classList.contains("editButtons")) {
         const dataKey = this.value;
         const data = localStorage.getItem(dataKey);
@@ -17,16 +11,16 @@ document.addEventListener("DOMContentLoaded", function () {
           localStorage.setItem("dataKey", dataKey);
           window.open("edit.html", "popup", "width=750,height=650");
         } else {
-          alert("No data found for this button.");
+          alert("No data found.");
         }
       }
     });
   });
 
-//   const dataKey = localStorage.getItem("dataKey");
+  const dataKey = localStorage.getItem("dataKey");
   const currentContent = localStorage.getItem(dataKey);
   const textarea = document.getElementById("editt");
-//   textarea.value = currentContent;
+  //   textarea.value = currentContent;
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -45,28 +39,23 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   saveButton.addEventListener("click", function () {
-
     const newData = textarea.value;
 
     const editButtonValue = localStorage.getItem("editButtonValue");
 
-
     localStorage.setItem(editButtonValue, newData);
-
-    
     localStorage.setItem(localStorage.getItem("dataKey"), newData);
 
-    alert("Changes have been saved successfully!");
+    alert("Your Changes saved!");
   });
-})
+});
 
-
-function createList(array){
+function createList(array) {
   let code = '';
-  for(let i = 0; i < array.length; i++){
-      code += `<li>${array[i]}</li>`
+  for (let i = 0; i < array.length; i++) {
+    code += `<li>${array[i]}</li>`;
   }
-  return code
+  return code;
 }
 
 if (localStorage.getItem('subscribedEmails')) {

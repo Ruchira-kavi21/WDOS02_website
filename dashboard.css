@@ -66,9 +66,10 @@ header {
 #back-to-home {
     font-size: 15px;
     color: #fff;
-    background-color: #0e2503;
+    background-color: #2d750b;
     padding: 10px;
     margin-top: 40px;
+    border-radius: 20px;
 }
 #editButtons {
     background-color: #0e2503;
@@ -77,6 +78,7 @@ header {
     color: #fff;
     border-radius: 20px;
     cursor: pointer;
+    
 }
 footer {
     
